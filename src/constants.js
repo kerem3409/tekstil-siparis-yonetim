@@ -1,0 +1,11 @@
+export const PRODUCT_TYPES=['T-Shirt','Sweatshirt','Hoodie','Fermuarlı Hoodie','Polo Yaka','Gömlek','Pantolon','Eşofman Altı','Şort','Elbise','Etek','Mont / Ceket','Yelek','Diğer'];
+export const FABRICS=['Süprem / Single Jersey','2 İplik','3 İplik','3 İplik Şardonlu','3 İplik Şardonsuz','Pike / Lacoste','İnterlok','Ribana','Kaşkorse','Selanik','Polar','Penye','Poplin','Oxford','Gabardin','Denim','Viskon','Keten','Scuba','Dalgıç','Kadife','Şifon','Saten','Diğer'];
+export const COMPOSITIONS=['%100 Pamuk','%100 Polyester','%100 Viskon','%100 Keten','%80 Pamuk / %20 Polyester','%95 Pamuk / %5 Elastan','Polyester / Elastan','Viskon / Elastan','Özel'];
+export const STATUSES=['Taslak','Numune Bekliyor','Numune Hazır','Onay Bekliyor','Onaylandı','Kumaş Bekliyor','Kesimde','Dikimde','Baskı / Nakış','Kalite Kontrol','Ütü / Paket','Sevke Hazır','Sevk Edildi','Tamamlandı','İptal'];
+export const SIZES=['XS','S','M','L','XL','XXL','3XL'];
+export const FITS=['Regular Fit','Oversize','Slim Fit','Relaxed Fit','Boxy Fit','Özel Kalıp'];
+export const GENDERS=['Kadın','Erkek','Unisex','Çocuk'];
+export const ACCESSORIES=['Ense Etiketi','Beden Etiketi','Yıkama Talimatı','Sallama Kartı','Etek Ucu Aksesuarı','Fermuar','Düğme','Çıtçıt','Kordon','Kordon Ucu','Kuş Gözü','Ribana','Lastik','Tela','Arma','Patch','Diğer'];
+export const APPLICATIONS=['Serigrafi','Dijital Baskı / DTG','DTF','Transfer Baskı','Sublimasyon','Nakış','Kabartma','Kauçuk Arma','Dokuma Arma','Pres Arma','Diğer'];
+export const PACKAGING=['Tekli Şeffaf Poşet','Kilitli Poşet','Baskılı Poşet','Askılı','Kutu','Diğer'];
+export const EMPTY_ORDER={status:'Taslak',customer:{name:'',brand:'',contact:'',phone:'',email:''},product:{name:'',modelCode:'',type:'T-Shirt',quantity:'',orderDate:new Date().toISOString().slice(0,10),deliveryDate:'',notes:'',fit:'Regular Fit',gender:'Unisex',modelDetails:{}},fabric:{type:'Süprem / Single Jersey',composition:'%100 Pamuk',gsm:'',width:'',code:'',supplier:'',features:[],notes:''},colors:[],accessories:[],applications:[],packaging:{type:'Tekli Şeffaf Poşet',barcode:false,sizeSticker:false,productLabel:false,boxQuantity:'',boxSize:'',notes:''},attachments:[]};
